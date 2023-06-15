@@ -18,6 +18,7 @@ Tutorial:   https://docs.ultralytics.com/yolov5/tutorials/train_custom_data
 import argparse
 import math
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import random
 import subprocess
 import sys
